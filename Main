@@ -27,7 +27,7 @@ local function NotificacaoNightMystic(titulo, mensagem)
     local success = pcall(function()
         local TweenService = Services.TweenService
         local CoreGui = Services.CoreGui
-        local LogoID = "rbxassetid://96809984749259"
+        local LogoID = "rbxassetid://89906421818860"
 
         local ScreenGui = Instance.new("ScreenGui")
         ScreenGui.Name = "NM_Notify"
@@ -2442,7 +2442,7 @@ screenGui.Parent = game.CoreGui
 local imageButton = Instance.new("ImageButton")
 imageButton.Size = UDim2.new(0, 50, 0, 50)
 imageButton.Position = UDim2.new(0.15, 0, 0.15, 0)
-imageButton.Image = "rbxassetid://96809984749259"
+imageButton.Image = "rbxassetid://89906421818860"
 imageButton.BackgroundTransparency = 1
 imageButton.Parent = screenGui
 
@@ -2590,14 +2590,14 @@ local Setting = Library:MakeTab({
 Discord:AddDiscordInvite({
     Name = "Moonlight Hub",
     Description = "Join for new notification and for more script",
-    Logo = "rbxassetid://96809984749259",
+    Logo = "rbxassetid://74394297758710",
     Invite = "https://discord.gg/WF2sPbv3GD"
 })
 local credits = Discord:AddParagraph({
     Title = "Credits For Someone Peoples",
     Desc = ""
 })
-credits:SetDesc("Support @thaideptraisyntrax on Discord - Sever Moonlight Hub")
+credits:SetDesc("Support @thaideptraisyntrax and @kiengodvippropvp_81236 on Discord - Sever Moonlight Hub")
 
 -- =============================================
 -- DISCORD WEBHOOK NOTIFY - Moonlight Hub VIP
@@ -2608,10 +2608,10 @@ credits:SetDesc("Support @thaideptraisyntrax on Discord - Sever Moonlight Hub")
 -- ⚠️ PASTE 9 WEBHOOK URL VÀO ĐÂY ⚠️
 -- ============================================================
 local WEBHOOKS = {
-    FullMoon          = "https://discord.com/api/webhooks/1482386146209304688/rvgWpxpk-nKQM07LUd-eXzZnieadzn6GAafrKKU_mPliEkmTE3lZcM943jgc_ajNPdm7",  -- 🌕 Full Moon
-    NearFullMoon      = "https://discord.com/api/webhooks/1482386034535960686/5AxvqFfbsmDfMmQ9oef28ZubMnjdyesD8ztHn3j8qAVb4ZKMzwCnXU9m4ILQuJfDX8DM",  -- 🌔 Near Full Moon
-    Boss              = "https://discord.com/api/webhooks/1482385934354743317/96cHYjoFX4FMmD2J2XIVEwAXlk6axn6lddTjyMa1MuBrEz1kINuqp68bUTHeWDn1KmYC",  -- 💀 Boss Spawn
-    Haki              = "https://discord.com/api/webhooks/1482385778905448569/Lk-NeL48juAzW0Z3LDE5G50FTBtOyY6iflnguF3sdL54lldPUGaSLt6_3DkuHB5qtYRu",  -- ⚡ Haki V3
+    FullMoon          = "",  -- 🌕 Full Moon
+    NearFullMoon      = "",  -- 🌔 Near Full Moon
+    Boss              = "",  -- 💀 Boss Spawn
+    Haki              = "",  -- ⚡ Haki V3
     LegendarySword    = "https://discord.com/api/webhooks/1482385672613658675/dLXF7APrAZMpq9H_dkC6iXqjct4TsJiD_0-e14bMULtqOpcpZ1Bf6dPtFcMn5C6GLu9y",  -- ⚔️ Legendary Sword
     FruitSpawn        = "https://discord.com/api/webhooks/1482385561565007945/_O3LnEr-jmDC00j-LgJJ1ZBsdbsO_11Nq9ebCTIROTWIFaSfETcyj0JKs4CvLUgYSYjK",  -- 🍎 Fruit Spawn
     KitsuneIsland     = "https://discord.com/api/webhooks/1482385472813531260/Mo6LSRvrssNReXRFwfQec3JycfPw6sZgBgyp8I9PvWRQY788Qlox2_VkV5BRlxkZ5Gyf",  -- 🦊 Kitsune Island
@@ -5131,7 +5131,7 @@ local ToolAbilities = Net:WaitForChild("RF/JobToolAbilities")
 -- =========================================================
 -- CONFIGURAÇÃO DA NOTIFICAÇÃO CUSTOMIZADA (FULL BLACK)
 -- =========================================================
-local LogoID = "rbxassetid://96809984749259"
+local LogoID = "rbxassetid://89906421818860"
 
 local function NotifyNightMystic(texto)
     task.spawn(function()
