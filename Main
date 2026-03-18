@@ -27,7 +27,7 @@ local function NotificacaoNightMystic(titulo, mensagem)
     local success = pcall(function()
         local TweenService = Services.TweenService
         local CoreGui = Services.CoreGui
-        local LogoID = "rbxassetid://101196251905502"
+        local LogoID = "rbxassetid://86991724165138"
 
         local ScreenGui = Instance.new("ScreenGui")
         ScreenGui.Name = "NM_Notify"
@@ -2442,7 +2442,7 @@ screenGui.Parent = game.CoreGui
 local imageButton = Instance.new("ImageButton")
 imageButton.Size = UDim2.new(0, 50, 0, 50)
 imageButton.Position = UDim2.new(0.15, 0, 0.15, 0)
-imageButton.Image = "rbxassetid://101196251905502"
+imageButton.Image = "rbxassetid://86991724165138"
 imageButton.BackgroundTransparency = 1
 imageButton.Parent = screenGui
 
@@ -2590,7 +2590,7 @@ local Setting = Library:MakeTab({
 Discord:AddDiscordInvite({
     Name = "Moonlight Hub",
     Description = "Join for new notification and for more script",
-    Logo = "rbxassetid://101196251905502",
+    Logo = "rbxassetid://86991724165138",
     Invite = "https://discord.gg/WF2sPbv3GD"
 })
 local credits = Discord:AddParagraph({
@@ -5131,7 +5131,7 @@ local ToolAbilities = Net:WaitForChild("RF/JobToolAbilities")
 -- =========================================================
 -- CONFIGURAÇÃO DA NOTIFICAÇÃO CUSTOMIZADA (FULL BLACK)
 -- =========================================================
-local LogoID = "rbxassetid://101196251905502"
+local LogoID = "rbxassetid://86991724165138"
 
 local function NotifyNightMystic(texto)
     task.spawn(function()
